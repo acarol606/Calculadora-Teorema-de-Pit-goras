@@ -1,0 +1,37 @@
+body,html{
+    height: 100% !important;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemFundo{
+    width: 75%;
+    height: 75%;
+    background-image: url("../../assets/img/teste2.jpg") ;;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit:cover;
+    background-size:auto;
+    
+}
+
+p{
+
+    font-family: small-caps;
+    font-weight: bold;
+}
+
+.inserirvalor{
+        width: 120px;
+}
+
+.resultado,.button{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
