@@ -1,25 +1,22 @@
-<div class="container"> 
-  <div class=" imagemFundo" >
-    <div class="col-md">
-      <p>Lado A:</p>
-      <div class="form-floating-line-heigh;">
-      <input type="text" [(ngModel)]="LadoA" class="form-control inserirvalor" type="text" placeholder="Lado A" aria-label="Lado A">
-      </div>
-    <div class="col-md">
-      <p>Lado B:</p>
-      <div class="form-floating-line-heigh;">
-      <input type="text" [(ngModel)]="LadoB" class="form-control inserirvalor" placeholder="Lado B" aria-label="Lado B">
-      <br>
-      <div class="resultado">
-        <p>Resultado:</p>
-        <p>{{LadoC}}</p>
-      </div>
+<div class="container">
+  <div class=" imagemFundo">
+    <div>
+      <label for="ladoA">Lado A:</label>
+      <input id="ladoA" type="text" [(ngModel)]="LadoA" class="form-control inserirvalor" type="text" placeholder="Lado A"
+        aria-label="Lado A">
     </div>
-        <br>
-        <div class="button">
-          <button type="button"  class="btn btn-outline-dark btn-sm" (click)="calcularteorema()">Calcular</button>
-         <button type="button"  class="btn btn-outline-dark btn-sm" (click)="zerar()">zerar</button>
-        </div>
-        </div>
-  
+    <div class="div-ladob">
+      <label for="ladoB">Lado B:</label>
+      <input id="ladoB" type="text" [(ngModel)]="LadoB" class="form-control inserirvalor" placeholder="Lado B" aria-label="Lado B">
+    </div>
+    <br>
+    <div class="resultado">
+      <p class="resultado-label">Resultado:</p>
+      <p>{{LadoC}}</p>
+    </div>
+    <div class="button">
+      <button type="button" class="btn btn-outline-dark btn-sm" (click)="calcularteorema()">Calcular</button>
+      <button type="button" class="btn btn-outline-dark btn-sm" (click)="zerar()">Zerar</button>
+    </div>
+  </div>
 </div>

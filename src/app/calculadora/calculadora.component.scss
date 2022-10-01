@@ -20,9 +20,17 @@ body,html{
     
 }
 
-p{
+label{
 
     font-family: small-caps;
+    font-weight: bold;
+}
+
+.div-ladob {
+    margin-top: 12px;
+}
+
+.resultado-label {
     font-weight: bold;
 }
 
@@ -30,7 +38,7 @@ p{
         width: 120px;
 }
 
-.resultado,.button{
+.resultado, .button{
     display: flex;
     flex-direction: row;
     gap: 12px;
