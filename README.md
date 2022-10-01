@@ -4,4 +4,4 @@ Essa calculadora faz o calculo da relação entre os lados de um triângulo ret�
 
 <h3>Para executar:</h3>
 Necessário angular e nodejs instalado na máquina.<br>
-Abrir no terminal a raiz do projeto e executar "npm install", após concluir executar "npm start"
+Abrir no terminal na raiz do projeto e executar "npm install", após concluir executar "npm start" e acessar do seu browser "localhost:4200"
